@@ -1,2 +1,4 @@
 # pwvaldeweb.github.io
-Esta es mi pagina personal
+## portfolio Julia Delgado Prieto
+Este es el portfolio de Julia Delgado
+Indice de trabajos
