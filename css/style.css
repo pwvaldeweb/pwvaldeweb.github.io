@@ -1,0 +1,24 @@
+body{
+    max-width: 1200px;
+    max-height: 1200px;
+}
+.container{
+    
+}
+.curriculum, .carta{
+    height: 300px;
+    width: 300px;
+    border: green solid;
+    margin: 12px;
+    display: inline-block;
+    
+}
+.curriculum{
+    background-image:url(img/carta.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.curriculum, a, p{
+    padding-top: 100px;
+}
