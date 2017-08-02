@@ -1,24 +1,85 @@
-body{
-    max-width: 1200px;
-    max-height: 1200px;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-.container{
+body{
+  
+    background-image: url(img/fondo1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.4),
+             2px 8px 13px rgba(0,0,0,0.1),
+             2px 18px 23px rgba(0,0,0,0.1);
+}
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.4),
+             2px 8px 13px rgba(0,0,0,0.1),
+             2px 18px 23px rgba(0,0,0,0.1);
+}
+.contenedor{
+
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.5);
+
+ 
     
 }
-.curriculum, .carta{
+.curriculum, .carta, .casita{
     height: 300px;
     width: 300px;
-    border: green solid;
+    border-image:16px url(img/puntos.jpg);
+    background-size:300px 200px;
+    background-repeat: no-repeat;
+    background-color: rgba(166, 5, 157,0.5);
+    text-align: center;
     margin: 12px;
     display: inline-block;
     
+    vertical-align: top;
+    position:relative;
+    bottom: 0;
+    
 }
+figcaption{
+        background:rgba(0,0,0,.5); 
+        text-align:center; 
+        width:100%;
+        padding:.2em;  
+        
+       
+      }
 .curriculum{
-    background-image:url(img/carta.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: center;
+    background-image:url(img/curriculum.jpg);
+    
 }
-.curriculum, a, p{
-    padding-top: 100px;
+.carta{
+    background-image:url(img/carta2.jpg);
+    
+}
+.casita{
+    
+    background-image: url(img/casita.jpg);
+    
+}
+a{
+    color:skyblue;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid gray;
+}
+.descripcion{
+    position: relative;
+    bottom: 0;
+}
+.a{
+    border: 2px solid gray;
 }
