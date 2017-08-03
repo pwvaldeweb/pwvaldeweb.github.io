@@ -71,15 +71,24 @@ figcaption{
     
 }
 a{
-    color:skyblue;
+    color:white;
     font-size: 16px;
     font-weight: bold;
     border: 2px solid gray;
 }
+@font-face{
+    font-family: "fuentep";
+    src: url(fonts/BowlbyONeSC-Regular.ttf);
+    font-weight: bold;
+}
+
 .descripcion{
     position: relative;
-    bottom: 0;
+    top: 180px;
+    font-family: "fuentep" sans-serif;
 }
-.a{
-    border: 2px solid gray;
+p{
+font-family: "fuentep" sans-serif;
+}
+
 }
