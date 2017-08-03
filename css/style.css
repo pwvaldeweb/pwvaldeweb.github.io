@@ -26,39 +26,46 @@ h2{
 .contenedor{
 
     max-width: 1000px;
-    min-height: 1000px;
+    min-height: 800px;
     margin: 0 auto;
     background-color: rgba(255,255,255,0.5);
 
  
     
 }
-.curriculum, .carta, .casita{
+#marcador{
     height: 300px;
     width: 300px;
-    border-image:16px url(img/puntos.jpg);
+    
+    /*border-image:16px solid url(img/puntos.jpg);*/
     background-size:300px 200px;
     background-repeat: no-repeat;
     background-color: rgba(166, 5, 157,0.5);
     text-align: center;
-    margin: 12px;
-    display: inline-block;
     
-    vertical-align: top;
+    display: inline-block;
+    margin: 12px;
+    vertical-align: bottom;
     position:relative;
     bottom: 0;
     
+}
+#marcador:hover{
+    background-color: plum;
 }
 figcaption{
         background:rgba(0,0,0,.5); 
         text-align:center; 
         width:100%;
         padding:.2em;  
-        
-       
       }
+#marcador figcaption{
+    position: absolute;
+    bottom: 0;
+}
 .curriculum{
     background-image:url(img/curriculum.jpg);
+    
     
 }
 .carta{
@@ -70,6 +77,9 @@ figcaption{
     background-image: url(img/casita.jpg);
     
 }
+.comercio{
+    background-image: url(img/com_valdep.png)
+}
 a{
     color:white;
     font-size: 16px;
@@ -77,18 +87,22 @@ a{
     border: 2px solid gray;
 }
 @font-face{
-    font-family: "fuentep";
-    src: url(fonts/BowlbyONeSC-Regular.ttf);
-    font-weight: bold;
+ font-family: "fuente1";
+ src: url(../fonts/BowlbyOneSC-Regular.ttf);    
 }
 
 .descripcion{
     position: relative;
-    top: 180px;
-    font-family: "fuentep" sans-serif;
+    top: 200px;
+    font-family: "fuente1";   
 }
 p{
 font-family: "fuentep" sans-serif;
 }
-
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 280px;
 }
+
+
