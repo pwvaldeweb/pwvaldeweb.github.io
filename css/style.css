@@ -104,16 +104,31 @@ font-family: "fuentep" sans-serif;
 footer{
     position: absolute;
     bottom: 0;
-    right: 280px;
+    right: 12px;
+    font-size:1,5em;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border-bottom-color: white;
 }
 ul li a{
     color: white;
     font-size: 2em;
+    list-style: none; 
+}
+
+nav{
+    width: 60px;
+    text-align: center;   
 }
 .enlaces{
     display: block;
-    position: static;
-    right: 0 auto;
+    position:fixed;/*fijamos la posicion*/
+    right: 20px;/*le damos 20px de margen a la derecha*/
+    background-color:blueviolet;
+    border-radius: 20%;
+    border:2px solid white;
+    
 }
 
 
