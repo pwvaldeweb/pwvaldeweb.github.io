@@ -82,6 +82,9 @@ figcaption{
 .comercio{
     background-image: url(img/com_valdep.png)
 }
+.mapa{
+    background-image: url(../mapa.png)
+}
 figcaption a{
     color:white;
     font-size: 16px;
