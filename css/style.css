@@ -80,10 +80,13 @@ figcaption{
     
 }
 .comercio{
-    background-image: url(img/com_valdep.png)
+    background-image: url(img/com_valdep.png);
 }
 .mapa{
-    background-image: url(../mapa.png)
+    background-image: url(../mapa.png);
+}
+.animacion{
+    background-image: url(../animacion.png);
 }
 figcaption a{
     color:white;
