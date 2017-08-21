@@ -5,9 +5,10 @@
 }
 
 body{
-  
+    width: 100%;
     background-image: url(img/fondo1.jpg);
-    background-size:cover;
+    background-color: blue;
+    background-size:cover;*/
     background-repeat: no-repeat;
 }
 h1{
@@ -29,11 +30,7 @@ h2{
     max-width: 1000px;
     min-height: 800px;
     margin: 0 auto;
-    background-color: rgba(255,255,255,0.5);
-    
-
- 
-    
+    background-color: rgba(255,255,255,0.5);    
 }
 #marcador{
     height: 300px;
@@ -67,17 +64,12 @@ figcaption{
 }
 .curriculum{
     background-image:url(img/curriculum.jpg);
-    
-    
 }
 .carta{
     background-image:url(img/carta2.jpg);
-    
 }
 .casita{
-    
-    background-image: url(img/casita.jpg);
-    
+    background-image: url(img/casita.jpg);    
 }
 .comercio{
     background-image: url(img/com_valdep.png);
@@ -108,34 +100,45 @@ p{
 font-family: "fuentep" sans-serif;
 }
 footer{
-    position: absolute;
-    bottom: 0;
-    right: 12px;
+    position: relative;
     font-size:1,5em;
     font-weight: bold;
     color: white;
     background-color: blueviolet;
     border-bottom-color: white;
+    text-align: right;
 }
 ul li a{
     color: white;
     font-size: 2em;
-    list-style: none; 
+}
+li{
+    list-style: none;
 }
 
-nav{
-    width: 60px;
-    text-align: center;   
-}
+
 .enlaces{
     display: block;
+    width: 60px;
+    
     position:fixed;/*fijamos la posicion*/
     right: 20px;/*le damos 20px de margen a la derecha*/
     background-color:blueviolet;
     border-radius: 20%;
-    border:2px solid white;
-    
+    border:2px solid white;   
+    z-index: 1;
 }
-
+nav{
+   width: 60px;
+    text-align: center;
+}
+@media (max-width:450px){
+    body{
+        min-width: 400px;
+    }
+    .contenedor{
+        min-width: auto;
+    }
+}*/
 
 
