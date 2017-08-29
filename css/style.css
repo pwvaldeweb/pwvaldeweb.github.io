@@ -80,6 +80,15 @@ figcaption{
 .animacion{
     background-image: url(../animacion.png);
 }
+.Empresa{
+    background-image: url(../todo_en_casa.png);
+}
+.formulario{
+    background-image: url(../formulario.png);
+}
+.boilerplate-bootstrap{
+    background-image: url(../boilerplate.png);
+}
 figcaption a{
     color:white;
     font-size: 16px;
