@@ -90,7 +90,11 @@ figcaption{
     background-image: url(../boilerplate.png);
 }
 .examen1{
-    background-image: url(../diseno_liquido.png)
+    background-image: url(../diseno_liquido.png);
+}
+.curriculumbst
+{
+    background-image: url(../curri_bst.PNG);
 }
 figcaption a{
     color:white;
