@@ -89,6 +89,9 @@ figcaption{
 .boilerplate-bootstrap{
     background-image: url(../boilerplate.png);
 }
+.examen1{
+    background-image: url(../diseno_liquido.png)
+}
 figcaption a{
     color:white;
     font-size: 16px;
